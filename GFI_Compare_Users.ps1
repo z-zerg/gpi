@@ -17,8 +17,8 @@ New-Variable -Name removed -Value $false -Scope Global
 # Задаём параметры для отправки оповещения на E-mail
     $encoding = [System.Text.Encoding]::UTF8
     $emailSmtpServer = "exch1.geops.local"
-    $emailFrom = "support@geops.ru"
-    $emailTo = "trushkov@geops.ru"
+    $emailFrom = "infohost@geops.ru"
+    $emailTo = "support@geops.ru"
     $emailSubject = "Сортировка пользователей по группам доступа к устройствам"
     $emailBody = "<h2>Выполнено</h2>"
     $emailFoter = "<br><hr>
